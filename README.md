@@ -1,4 +1,9 @@
 # Midi_Piano_Code49
+We had a broken M-Audio Code49 Midi Controller where the Main chip was fried.
+Replacing this chip was not an option, because we don't have the firmware and no way of flashing it.
+We decided to just reuse the Keyboard with its connectors and Strap a Raspberry Pi Pico (RP2040) to them.
+With this we loose all the Encoders and Drumpad buttons etc.. but we have a working Midi Piano at least.
+With Multiplexers, you could of course add more of the Controls again, but this was too much work for us and we'll reuse those parts on other projects.
 
 
 # Programming the RP2040
