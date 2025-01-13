@@ -8,6 +8,9 @@ With Multiplexers, you could of course add more of the Controls again, but this 
 Shoutout to Thorbjoern for the collaboration: [thorbijoern.github.io/wiki/](https://thorbijoern.github.io/wiki/)
 
 # Programming the RP2040
+NOTE: This might differ, just do some internet research, it's fiddly. If you don't get midi signal, this might be the issue.
+* In Arduino IDE under File > Preferences > Additional Board Manager URLs, add following:
+ ```https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json```
 * In Arduino IDE under Boards, install the "Arduino Mbed OS RP2040 Boards"
 * Under Tools > Board, Select "Arduino Mbed OS RP2040 Boards" > Raspberry Pi Pico
 * Install the Control Surface Library https://github.com/tttapa/Control-Surface
