@@ -5,7 +5,7 @@ We decided to just reuse the Keyboard with its connectors and Strap a Raspberry 
 With this we loose all the Encoders and Drumpad buttons etc.. but we have a working Midi Piano at least.
 With Multiplexers, you could of course add more of the Controls again, but this was too much work for us and we'll reuse those parts on other projects.
 
-Shoutout to Thorbjoern for the collaboration: [thorbijoern.github.io/wiki/****](https://thorbijoern.github.io/wiki/)
+Shoutout to Thorbjoern for the collaboration: [thorbijoern.github.io/wiki/](https://thorbijoern.github.io/wiki/)
 
 # Programming the RP2040
 * In Arduino IDE under Boards, install the "Arduino Mbed OS RP2040 Boards"
